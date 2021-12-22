@@ -7,6 +7,7 @@ import List from "./pages/List";
 import Count from "./pages/Count";
 import Form from "./pages/Form";
 import Money from "./pages/Money";
+import './App.css';
 
 
 const Router = () => {

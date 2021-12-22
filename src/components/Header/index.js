@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import '../../App.css';
 
 
@@ -25,10 +25,9 @@ const Header = () => {
 }
 
 
-export default Header;
+export default Header;*/
 
-
-/*import React from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import '../../App.css';
 
@@ -56,4 +55,4 @@ const Header = () => {
 }
 
 
-export default Header;*/
+export default Header;

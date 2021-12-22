@@ -7,6 +7,7 @@ export default function Counter_State(){
 
     return(
         <div className="counter">
+            
             <h1>Basic Counter</h1>
             <h2>You clicked {count} times!</h2>
             <button onClick={()=> (setCount(count + 1))}>Increment</button>
