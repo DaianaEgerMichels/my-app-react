@@ -1,12 +1,24 @@
 import './App.css';
-import Home from './pages/Home';
+import Count from './pages/Count';
+
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
+      <Count></Count>
     </div>
   );
 }
 
 export default App;
+
+
+/*import React from 'react';
+import './App.css';
+import Router from './routes'
+
+function App() {
+  return <Router/>;
+}
+
+export default App;*/

@@ -1,8 +1,110 @@
 .App {
     height: auto;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
 }
+
+
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+    font-size: 100%;
+    font: inherit;
+    width: 100%;
+  }
+  
+  body{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+  
+  
+  /*Header*/
+  
+  header{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgb(1, 72, 114);
+    width: 100%;
+    height: 90px;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+  
+  
+  header> .header_btn{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        font-size: 15px;
+        justify-content: flex-start;
+        margin-left: 30px;
+      
+  }
+  
+  /*Botões*/
+  
+  button:hover{
+    background-color: rgb(8, 60, 70);
+    cursor: pointer;
+  }
+  
+  button{
+    width: 120px;
+    height: 45px;
+    font-family: 'Cotton','Times New Roman', Times, serif;
+    color: rgb(113, 136, 146);
+    font-size: 20px;
+  }
+
+  
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 2;
+    background-color: rgb(1, 72, 114);
+    width: 100%;
+    min-height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+  
+  footer> p{
+    font-family: 'Champagne','Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  footer> h3{
+    font-family:'Cotton', 'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: rgb(113, 136, 146);
+    text-align: center;
+  }
+
+  /*Fonts*/
+
+  @font-face {
+    font-family: 'Champagne';
+    src: url('../src/fonts/Champagne\ &\ Limousines.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cotton';
+    src: url('../src/fonts/Cotton\ Butter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
