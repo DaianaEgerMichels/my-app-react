@@ -3,7 +3,7 @@ import Count from '../Count';
 
 
 const Home = ()=>{
-    return(<Count/>)
+    return(<Count/>);
 }
 
 export default Home;

@@ -9,7 +9,7 @@ export default function Counter_State(){
         <div>
             <h1>Basic Counter</h1>
             <h2>You clicked {count} times!</h2>
-            <button onClick={()=>setCount({count: count + 1})}>Increment</button>
+            <button onClick={()=> (setCount({count: count + 1}))}>Increment</button>
 
         </div>
     )
