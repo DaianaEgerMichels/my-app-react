@@ -15,7 +15,7 @@ const Home = ()=>{
 
                 I am 24 years old. <br/>
 
-                I am a student of Dev in House. <br/>
+                I'm a Dev in House student. <br/>
                 
                 SENAI | ACATE
             </p>
