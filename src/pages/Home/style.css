@@ -1,0 +1,24 @@
+.home{
+    font-family: 'Champagne', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    box-shadow: 2px 2px 5px 5px rgba(1, 73, 73, 0.7);
+    border-radius: 7px;
+    height: 450px;
+    background-color: rgb(202, 243, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.home>h1{
+    font-size: 32px;
+    color: rgb(6, 80, 99);
+}
+
+.home>p{
+    font-family: 'Champagne','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(6, 80, 99);
+}
