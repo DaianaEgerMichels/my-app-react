@@ -1,0 +1,21 @@
+{
+    "banco": [
+      
+    ],   
+    "conta": [
+      "Poupança",
+      "Corrente",
+      "Corrente e Poupança",
+      "Investimentos",
+      "Outro"
+    ],
+    "investimentos": [
+      "Bolsa de Valores",
+      "Cripto Moedas",
+      "Bitcoin",
+      "Tesouro Direto",
+      "Tesouro Nacional",
+      "Tesouro Selic",
+      "Outro"
+    ]
+  }

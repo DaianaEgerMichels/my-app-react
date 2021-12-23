@@ -23,7 +23,7 @@
     flex-direction:column;
     justify-content: space-between;
   }
-  
+
   
   /*Header*/
   
@@ -108,3 +108,34 @@ footer{
     font-weight: normal;
     font-style: normal;
   }
+
+
+  /*Mensagem de erro*/
+
+  .error-msg{
+    width: 350px;
+    height: 30px;
+    border: 1px solid rgb(158, 47, 47);
+    border-radius: 5px;
+    color: rgb(83, 4, 4);
+    background-color: rgba(212, 32, 32, 0.24);
+    text-align: center;
+    padding-top: 5px;
+    visibility: hidden;
+  }
+  
+  .error-msg.error {
+    visibility: visible;
+  }
+
+  /*Input geral*/
+
+input{
+  outline: none;
+  border-radius: 5px;
+}
+
+input:focus{
+  background-color:aliceblue;
+  border-width: 2px;
+}

@@ -17,7 +17,7 @@ const Home = ()=>{
 
                 I'm a Dev in House student. <br/>
                 
-                SENAI | ACATE
+                <abbr title="Serviço Nacional de Aprendizagem Industrial">SENAI</abbr> | <abbr title="Associação Catarinense de Tecnologia">ACATE</abbr>
             </p>
         </div>
 
