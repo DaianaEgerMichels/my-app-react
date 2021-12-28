@@ -22,8 +22,8 @@ export default function List(){
     return (
         <>
               <section className="list-investiments">
-                <h1>Lista de Produtos</h1>
-                {investiments.map(item=> <ListContainer url={item.url} name={item.name} description={item.description} unitCost={item.unitCost} provider={item.provider} group={item.group}></ListContainer>)}
+                <h1>Lista de Aplicações</h1>
+                {investiments.map(item=> <ListContainer url={item.url} nameClient={item.nameClient} nameBank={item.nameBank} applicationValue={item.applicationValue}></ListContainer>)}
               </section>
            
          
