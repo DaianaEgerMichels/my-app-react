@@ -10,7 +10,7 @@ export default function List(){
     useEffect(() => {
 
         async function getInvestiments() {
-          const result = await fetch("http://localhost:3333/produtos");
+          const result = await fetch("http://localhost:3333/banco");
           const data = await result.json();
           setInvestiments(data);
         }
