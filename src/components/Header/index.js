@@ -1,32 +1,3 @@
-/*import React from "react";
-import '../../App.css';
-
-
-const Header = () => {
-        return(
-            <header>
-                <div className="header_btn">
-                    
-                        <button >Count</button>
-                  
-                   
-                        <button >Count Money</button>
-                    
-                    
-                        <button >Form</button>
-                    
-                    
-                        <button >List</button>
-                    
-                </div>  
-            </header>
-        )
-
-}
-
-
-export default Header;*/
-
 import React from "react";
 import { Link } from "react-router-dom";
 import '../../App.css';
