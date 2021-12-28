@@ -14,7 +14,7 @@ const ListContainer = ({url,nameClient, nameBank, applicationValue} )=>{
             </div>
             <div id="details-investiment">
                 <h2>{nameBank}</h2>
-                <p>{`Custo unitário R$ ${applicationValue}`}</p>
+                <p>{`Valor da Aplicação R$ ${applicationValue}`}</p>
             </div>
         </section>
     )
