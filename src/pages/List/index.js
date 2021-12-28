@@ -5,25 +5,25 @@ import './List.css'
 
 export default function List(){
 
-    const [products, setProducts] = useState([]);
+    const [investiments, setInvestiments] = useState([]);
 
     useEffect(() => {
 
-        async function getProducts() {
+        async function getInvestiments() {
           const result = await fetch("http://localhost:3333/produtos");
           const data = await result.json();
-          setProducts(data);
+          setInvestiments(data);
         }
             
-        getProducts();
+        getInvestiments();
             
       }, []);
 
     return (
         <>
-              <section className="list-products">
+              <section className="list-investiments">
                 <h1>Lista de Produtos</h1>
-                {products.map(item=> <ListContainer url={item.url} name={item.name} description={item.description} unitCost={item.unitCost} provider={item.provider} group={item.group}></ListContainer>)}
+                {investiments.map(item=> <ListContainer url={item.url} name={item.name} description={item.description} unitCost={item.unitCost} provider={item.provider} group={item.group}></ListContainer>)}
               </section>
            
          

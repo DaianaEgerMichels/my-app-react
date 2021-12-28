@@ -1,4 +1,4 @@
-.list-products{
+.list-investiments{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -11,7 +11,7 @@
     flex-wrap: wrap;
 }
 
-.list-products>h1{
+.list-investiments>h1{
     font-size: 30px;
     font-family: 'Cotton','Times New Roman', Times, serif;
 }
@@ -20,10 +20,10 @@
     .main{
         max-width: 770px;
     }
-    .list-products{
+    .list-investiments{
         max-width:670px ;
     }
-    .list-products>h1{
+    .list-investiments>h1{
         font-size: 24px;
     }
 }
@@ -32,13 +32,13 @@
     .main{
         max-width: 480px;
     }
-    .list-products{
+    .list-investiments{
         max-width:450px ;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
-    .list-products>h1{
+    .list-investiments>h1{
         font-size: 22px;
     }
 }
