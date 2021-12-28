@@ -1,4 +1,4 @@
-.product-container{
+.application-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,7 @@
     padding: 5px;
 }
 
-#image-product{
+#image-name{
     display: flex;
     align-items: center;
     width: 101px;
@@ -20,13 +20,21 @@
     margin: 0 auto;
 }
 
-#image-product>img{
+#img-money{
+    display: flex;
+    align-items: center;
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+}
+
+#image-name>img{
     width: 100px;
     height: 100px;
     border-radius: 4px;
 }
 
-#details-product{
+#details-investiment{
     display: flex;
     flex-direction: column;
     flex-shrink: 2;
@@ -35,43 +43,32 @@
     max-height: 180px;
 }
 
-#details-product>h2{
+#details-investiment>h2{
     font-family: 'Cotton','Times New Roman', Times, serif;
     font-size: 19px;
     color: rgb(39, 39, 39);
     text-align: center;
 }
 
-#details-product>h4{
-    font-size: 14px;
-    text-align: justify;
-    font-style: italic;
-    margin-bottom: 3px;
-}
 
-#details-product>h4, #details-product>p{
+#details-investiment>p{
     font-family: 'Champagne','Times New Roman', Times, serif;
     color: rgb(17, 17, 17);
-}
-
-#details-product>p{
     font-size: 11px;
     text-align: start;
 }
 
+
 @media (max-width:650px){
-    .product-container{
+    .application-container{
         display: block;
         width:180px;
         height: 235px;
     }
-    #details-product>h2{
+    #details-investiment>h2{
         font-size: 13px;
     }
-    #details-product>h4{
-        font-size: 11px;
-    }
-    #details-product>p{
+    #details-investiment>p{
         font-size: 10px;
     }
 }

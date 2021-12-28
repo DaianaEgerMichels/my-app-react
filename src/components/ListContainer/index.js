@@ -1,20 +1,20 @@
 import React from "react";
 import "./ListContainer.css"
 
-const ListContainer = ({url,name, description, unitCost, provider,group} )=>{
+const ListContainer = ({url,nameClient, nameBank, applicationValue} )=>{
     return(
         
-        <section className="product-container" >
-            <div id="image-product">
-                <img src={url} alt={name}></img>
+        <section className="application-container" >
+            <div id="image-name">
+                <img src={url} alt={nameClient}></img>
+                <h1>{nameClient}</h1>
             </div>
-
-            <div id="details-product">
-                <h2>{name}</h2>
-                <h4>{description}</h4>
-                <p>{`Custo unitário R$ ${unitCost}`}</p>
-                <p>{`Fornecedor: ${provider}`}</p>
-                <p>{`Grupo: ${group}`}</p>
+            <div id="img-money">
+                <img src={url} alt={nameClient}></img>
+            </div>
+            <div id="details-investiment">
+                <h2>{nameBank}</h2>
+                <p>{`Custo unitário R$ ${applicationValue}`}</p>
             </div>
         </section>
     )
