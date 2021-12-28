@@ -1,20 +1,28 @@
 {
-    "banco": [
-      
-    ],   
-    "conta": [
-      "Poupança",
-      "Corrente",
-      "Investimentos",
-      "Outro"
-    ],
-    "investimentos": [
-      "Bolsa de Valores",
-      "Cripto Moedas",
-      "Bitcoin",
-      "Tesouro Direto",
-      "Tesouro Nacional",
-      "Tesouro Selic",
-      "Outro"
-    ]
-  }
+  "banco": [
+    {
+      "url": "https://nubank.com.br/images/open-graph-logo-large-br.png?v=3",
+      "nameClient": "Daiana Michels",
+      "nameBank": "Nu Bank",
+      "applicationValue": "1000,00",
+      "count": "Investimentos",
+      "investiment": "Bolsa de Valores",
+      "id": 1
+    }
+  ],
+  "conta": [
+    "Poupança",
+    "Corrente",
+    "Investimentos",
+    "Outro"
+  ],
+  "investimentos": [
+    "Bolsa de Valores",
+    "Cripto Moedas",
+    "Bitcoin",
+    "Tesouro Direto",
+    "Tesouro Nacional",
+    "Tesouro Selic",
+    "Outro"
+  ]
+}

@@ -72,7 +72,7 @@ const  FormComponent= ()=>{
             }
           );
 
-          alert("Produto cadastrado com sucesso");
+          alert("Aplicação cadastrada com sucesso");
       
           history.push("/list");
           }
