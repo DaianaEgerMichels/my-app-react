@@ -14,6 +14,7 @@
     font-size: 100%;
     font: inherit;
     width: 100%;
+    box-sizing: border-box;
   }
   
   body{
@@ -92,6 +93,24 @@ footer{
     color: rgb(113, 136, 146);
     text-align: center;
   }
+
+  footer> .social_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  footer> .social_list li{
+    margin: 5px auto;
+  }
+
+  footer> .social_list svg{
+    font-size: 1.5em;
+    cursor: pointer;
+    color: rgb(113, 136, 146);
+  }
+
 
   /*Fonts*/
 
