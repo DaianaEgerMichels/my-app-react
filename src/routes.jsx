@@ -18,7 +18,6 @@ const Router = () => {
                 <Route exact path="/" component={Home}></Route>
                 <Route  path="/count" component={Count}></Route>
                 <Route  path="/form" component={Form}></Route>
-                <Route  path="/money" component={Money}></Route>
                 <Route  path="/list" component={List}></Route>
             </Switch>
             <Footer></Footer>

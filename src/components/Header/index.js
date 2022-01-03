@@ -10,9 +10,6 @@ const Header = () => {
                     <Link to="/count">
                         <button >Count</button>
                     </Link>
-                    <Link to="/money">
-                        <button >Count Money</button>
-                    </Link>
                     <Link to="/form">
                         <button >Form</button>
                     </Link>
